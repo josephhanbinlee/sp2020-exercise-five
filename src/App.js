@@ -66,7 +66,7 @@ useEffect(() => {
 
   // Login
   function LoginFunction(e) {
-    e.presentDefault();
+    e.preventDefault();
     let email = e.currentTarget.loginEmail.value;
     let password = e.currentTarget.loginPassword.value;
 
